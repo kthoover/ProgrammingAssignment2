@@ -1,5 +1,8 @@
 ## These functions take advantage of dynamic scoping to store the inverse of a matrix 
 ## and avoid recalculation if the matrix doesn't change and the inverse already exists.
+## The idea is based on examples for mean of a vector provided by R. Peng.
+## Starter code also provdied by R. Peng
+
 
 # Function uses dynamic scoping to cache a matrix and its inverse.
 
